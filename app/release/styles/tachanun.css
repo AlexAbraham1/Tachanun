@@ -1,0 +1,26 @@
+@import url(//fonts.googleapis.com/css?family=Lato:700);
+@import url(bootstrap.css);
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 100%;
+  /* needed for FF */
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #999;
+  /*FF*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+}
+div.home {
+  margin: 1em auto;
+  text-align: center;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGV4YWJyYWhhbS9EZXNrdG9wL1RhY2hhbnVuL2FwcC9zcmMvbGVzcy90YWNoYW51bi5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBR0E7QUFBTTtFQUFPLFlBQUE7O0FBRWI7RUFDQyxXQUFBOztFQUNBLFNBQUE7RUFDQSxhQUFZLGtCQUFaO0VBQ0Esa0JBQUE7RUFDQSxXQUFBOztFQUdBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLDZCQUFBOztBQUdEO0VBQ0Msa0JBQUE7O0FBSUQsR0FBRztFQUNGLGdCQUFBO0VBQ0Esa0JBQUEifQ== */
