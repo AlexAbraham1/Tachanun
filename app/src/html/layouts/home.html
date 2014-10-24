@@ -1,5 +1,14 @@
-<div class="home">
+<div ng-class="{skipTachanun: tachanun, sayTachanun: !tachanun}">
 
-    <h1>HELLO</h1>
+    <h1>{{englishDate}}</h1>
+    <h1>{{hebrewDate}}</h1>
+
+    <div ng-if="tachanun">
+        <h1>{{tachanun}}</h1>
+    </div>
+
+    <div ng-if="!tachanun">
+        <h1>Say Tachanun</h1>
+    </div>
 
 </div>
